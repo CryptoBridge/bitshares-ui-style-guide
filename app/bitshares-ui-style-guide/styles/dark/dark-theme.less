@@ -18,7 +18,7 @@
 @blue-3: color(~`colorPalette("@{blue-6}", 3)`);
 @blue-4: color(~`colorPalette("@{blue-6}", 4)`);
 @blue-5: color(~`colorPalette("@{blue-6}", 5)`);
-@blue-6: #00A9E9;
+@blue-6: #00c7fe;
 @blue-7: color(~`colorPalette("@{blue-6}", 7)`);
 @blue-8: color(~`colorPalette("@{blue-6}", 8)`);
 @blue-9: color(~`colorPalette("@{blue-6}", 9)`);
@@ -68,13 +68,13 @@
 @dark-9: color(~`colorPalette("@{dark-6}", 9)`);
 @dark-10: color(~`colorPalette("@{dark-6}", 10)`);
 
-@primary-dark-1: #333;
+@primary-dark-1: #0d182a;
 @primary-dark-2: #2A2A2A;
 
 @accent-1: #BABABA;
-@accent-2: #656565;
+@accent-2: #969696;
 @accent-3: #383838;
-@accent-4: #262626;
+@accent-4: @primary-dark-1;
 
 // The prefix to use on all css classes from ant.
 @ant-prefix: ant;
@@ -122,8 +122,8 @@
 @font-size-lg: @font-size-base + 2px;
 @font-size-sm: 12px;
 @line-height-base: 1.5;
-@border-radius-base: 0px;
-@border-radius-sm: 0px;
+@border-radius-base: 3px;
+@border-radius-sm: 1px;
 
 // vertical paddings
 @padding-lg: 24px; // containers
@@ -553,7 +553,7 @@
 @switch-sm-checked-margin-left: -(@switch-sm-height - 3px);
 @switch-disabled-opacity: 0.4;
 @switch-color: #fff;
-@switch-checked-color: @success-color;
+@switch-checked-color: @primary-color;
 @switch-bg: @accent-2;
 @switch-checked-bg: @accent-2;
 @switch-border-radius: 0px;

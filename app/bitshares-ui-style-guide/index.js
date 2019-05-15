@@ -2,7 +2,7 @@ import "./dark.less";
 import "./light.less";
 import "./midnight.less";
 
-import {Row, Col, Form} from "antd";
+import {Row, Col, Form, Pagination, Tag} from "antd";
 
 import BodyClassName from "./BodyClassName";
 import Button from "./Button";
@@ -59,8 +59,12 @@ export {
     Drawer,
     Steps,
     DatePicker,
+
     /* default ANT components */
-    Row,
+
     Col,
-    Form
+    Form,
+    Pagination,
+    Row,
+    Tag
 };
