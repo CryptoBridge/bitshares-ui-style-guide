@@ -2,7 +2,7 @@ import "./dark.less";
 import "./light.less";
 import "./midnight.less";
 
-import {Row, Col, Form, Pagination, Tag} from "antd";
+import {Row, Col, Form, Pagination, Tag, message} from "antd";
 
 import BodyClassName from "./BodyClassName";
 import Button from "./Button";
@@ -66,5 +66,6 @@ export {
     Form,
     Pagination,
     Row,
-    Tag
+    Tag,
+    message
 };
