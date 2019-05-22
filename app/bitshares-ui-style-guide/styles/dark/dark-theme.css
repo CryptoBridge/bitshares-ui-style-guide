@@ -20383,15 +20383,15 @@ button.ant-switch.ant-switch-checked:after {
 }
 .ant-card {
   background-color: transparent;
-  border-color: #0d182a;
+  border-color: #969696;
 }
 .ant-card .ant-card-head {
-  border-color: #0d182a;
+  border-color: #969696;
 }
 .ant-card .ant-card-body {
   margin-top: 1px;
   background-color: #0d182a;
-  border-color: #0d182a;
+  border-color: #969696;
 }
 .ant-alert .ant-alert-message {
   color: #0d182a;
