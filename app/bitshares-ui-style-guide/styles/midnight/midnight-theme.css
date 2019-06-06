@@ -20398,7 +20398,8 @@ button.ant-switch.ant-switch-checked:after {
   font-weight: 500;
 }
 .ant-notification-notice {
-  border: 1px solid transparent;
+  border: 1px solid #656565;
+  background-color: #142843;
 }
 .ant-calendar-active-week {
   background: #656565 !important;
